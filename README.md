@@ -1,12 +1,11 @@
 # aplikasi3_api
 
-Flutter project implementation API 
+Flutter project implementation API with GSO39A class
+
+Implementation with:
 - Gemini API
 - Weather API
 - News API
 
 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
