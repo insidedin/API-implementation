@@ -1,6 +1,9 @@
 # aplikasi3_api
 
-A new Flutter project.
+Flutter project implementation API 
+- Gemini API
+- Weather API
+- News API
 
 ## Getting Started
 
