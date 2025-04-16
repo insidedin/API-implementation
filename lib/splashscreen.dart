@@ -1,3 +1,5 @@
+import 'dart:async';
+import 'package:aplikasi3_api/navigation.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -8,6 +10,15 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+  //mengatur waktu splash screen
+  void initState() {
+    super.initState();
+    Timer(Duration(seconds: 3), () {
+      Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (context) => Navigation()));
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,5 +1,3 @@
-import 'package:aplikasi3_api/berita.dart';
-import 'package:aplikasi3_api/cuaca.dart';
 import 'package:aplikasi3_api/splashscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: NewsScreen());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen()
+    );
   }
 }
